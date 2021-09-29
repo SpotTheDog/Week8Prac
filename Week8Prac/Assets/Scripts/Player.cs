@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private int coins;
+    public int coinRead
+    {
+        get
+        {
+            return coins;
+        }
+    }
     public float speed = 5;
     // Start is called before the first frame update
     void Start()
@@ -19,5 +27,12 @@ public class Player : MonoBehaviour
 
         Vector3 velocity = new Vector3(vx, vy, 0) * speed;
         transform.Translate(velocity * Time.deltaTime);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Coin")
+        {
+            coins++;
+        }
     }
 }

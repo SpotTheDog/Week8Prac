@@ -189,6 +189,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &466987240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5766058897552926778, guid: 0e3a09652c4b02b47aade1b07da1d756, type: 3}
+  m_PrefabInstance: {fileID: 1804286726154409747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &466987242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466987240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a8f10ab7ac507418c2add7f1bac2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinInfo: {fileID: 1615366341}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
 --- !u!4 &714390308 stripped
@@ -398,6 +420,10 @@ PrefabInstance:
     - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
       propertyPath: m_Name
       value: Coin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
@@ -461,6 +487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
 --- !u!4 &769628097 stripped
@@ -523,6 +553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
 --- !u!4 &862693874 stripped
@@ -584,6 +618,10 @@ PrefabInstance:
     - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
       propertyPath: m_Name
       value: Coin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
@@ -730,6 +768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
 --- !u!4 &1011821465 stripped
@@ -791,6 +833,10 @@ PrefabInstance:
     - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
       propertyPath: m_Name
       value: Coin (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
@@ -854,6 +900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
 --- !u!4 &1607978848 stripped
@@ -900,6 +950,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1615366341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8327681819055731066, guid: 04c0e90cf340a0341a48b855b6195b0b, type: 3}
+  m_PrefabInstance: {fileID: 4144381235753433557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a743273cf555b0d449341d3f00e2f256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2038345230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6978905780100707542, guid: 04c0e90cf340a0341a48b855b6195b0b, type: 3}
@@ -1112,6 +1173,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
       propertyPath: m_Name
+      value: Coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485756587943008353, guid: 6ce6ba6aab927414c82d8b566b20a97a, type: 3}
+      propertyPath: m_TagString
       value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
