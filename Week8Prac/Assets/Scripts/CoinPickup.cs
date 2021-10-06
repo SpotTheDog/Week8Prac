@@ -17,7 +17,7 @@ public class CoinPickup : MonoBehaviour
     }
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag == "Player")
+        if (collider.tag == "Player1" || collider.tag == "Player2")
         {
             Destroy(gameObject);
         }

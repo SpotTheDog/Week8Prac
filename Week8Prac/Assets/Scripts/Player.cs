@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private int coins;
-    public int coinRead
+    private int player1Coins;
+    private int player2Coins;
+    public int coinRead1
     {
         get
         {
-            return coins;
+            return player1Coins;
+        }
+    }
+    public int coinRead2
+    {
+        get
+        {
+            return player2Coins;
         }
     }
     public float speed = 5;
@@ -32,7 +40,14 @@ public class Player : MonoBehaviour
     {
         if(other.tag == "Coin")
         {
-            coins++;
+            if(gameObject.tag == "Player1")
+            {
+                player1Coins++;
+            }
+            if(gameObject.tag == "Player2")
+            {
+                player2Coins++;
+            }
         }
     }
 }
